@@ -38,8 +38,13 @@ a {
 .title1 {
   font-weight: bolder;
   font-size: larger;
+  list-style: none;
   color: azure;
   line-height: 30px;
-  border-bottom: 2px groove;
-  border-color: rgb(223, 16, 16);
+}
+
+#redborder {
+  list-style: none;
+  border-bottom: solid 2px rgb(223, 16, 16);
+  width: 50px;
 }
